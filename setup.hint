@@ -1,0 +1,6 @@
+category: Perl Gnome
+requires: cygwin gtk2-x11 libwnck1_18 perl perl-Glib perl-Gtk2
+sdesc: "Perl bindings for the GNOME Wnck library"
+ldesc: "This module allows a Perl developer to use the Window Navigator 
+Construction Kit library (libwnck for short) to write tasklists and
+pagers."

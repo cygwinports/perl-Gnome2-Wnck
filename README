@@ -1,0 +1,123 @@
+perl-Gnome2-Wnck
+-------------------------------------------
+This module allows a Perl developer to use the Window Navigator 
+Construction Kit library (libwnck for short) to write tasklists and
+pagers.
+
+Runtime requirements:
+  cygwin-1.5.20-1
+  gtk2-x11-2.8.19-1
+  libwnck1_18-2.14.2-1
+  perl-5.8.7-5
+  perl-Glib-1.120-1
+  perl-Gtk2-1.122-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.20-1
+  binutils-20050610-1
+  cygport-0.2.3-1
+  gcc-core-3.4.4-1
+  make-3.80-1
+  perl-5.8.7-5
+  perl-ExtUtils-Depends-0.205-1
+  perl-ExtUtils-PkgConfig-1.07-1
+
+Canonical homepage:
+  http://gtk2-perl.sourceforge.net/
+
+Canonical download:
+  http://prdownloads.sourceforge.net/gtk2-perl/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Gnome2-Wnck-0.13-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Gnome2-Wnck-0.13-X.cygport all
+
+This will create:
+  /usr/src/perl-Gnome2-Wnck-0.13-X-src.tar.bz2
+  /usr/src/perl-Gnome2-Wnck-0.13-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-Gnome2-Wnck.sh
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Application.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/ClassGroup.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Install/Files.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Install/wnck2perl-autogen.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Install/wnck2perl-version.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Install/wnck2perl.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Install/wnck2perl.typemap
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Pager.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Screen.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Tasklist.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Window.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Workspace.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/index.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/main.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Wnck/.packlist
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Wnck/Wnck.bs
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Wnck/Wnck.dll
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Wnck/libWnck.dll.a
+  /usr/share/doc/Cygwin/perl-Gnome2-Wnck-0.13.README
+  /usr/share/doc/perl-Gnome2-Wnck-0.13/ChangeLog
+  /usr/share/doc/perl-Gnome2-Wnck-0.13/LICENSE
+  /usr/share/doc/perl-Gnome2-Wnck-0.13/NEWS
+  /usr/share/doc/perl-Gnome2-Wnck-0.13/README
+  /usr/share/man/man3/Gnome2.Wnck.3pm.gz
+  /usr/share/man/man3/Gnome2.Wnck.Application.3pm.gz
+  /usr/share/man/man3/Gnome2.Wnck.ClassGroup.3pm.gz
+  /usr/share/man/man3/Gnome2.Wnck.index.3pm.gz
+  /usr/share/man/man3/Gnome2.Wnck.main.3pm.gz
+  /usr/share/man/man3/Gnome2.Wnck.Pager.3pm.gz
+  /usr/share/man/man3/Gnome2.Wnck.Screen.3pm.gz
+  /usr/share/man/man3/Gnome2.Wnck.Tasklist.3pm.gz
+  /usr/share/man/man3/Gnome2.Wnck.Window.3pm.gz
+  /usr/share/man/man3/Gnome2.Wnck.Workspace.3pm.gz
+  /usr/share/perl/cygwin-pods/Gnome2-Wnck.pod
+
+------------------
+
+Port Notes:
+
+----- version 0.13-1 -----
+Version bump, built with cygport.
+
+----- version 0.12-1 -----
+Version bump.
+Fixed manpage generation again.
+
+----- version 0.11-1 -----
+Version bump for libwnck-2.12.
+
+----- version 0.10-3 -----
+Rebuilt for libwnck-2.10.
+
+----- version 0.10-2 -----
+Rebuilt against perl-5.8.7 with --enable-auto-image-base.
+
+----- version 0.10-1 -----
+Version bump, built against perl-5.8.6.
+
+----- version 0.08-1 -----
+New upstream release.
+
+----- version 0.07-1 -----
+New upstream release, build for perl-5.8.5.
+
+----- version 0.06-1 -----
+New upstream release; fixes build against libwnck-2.6.2.1.
+
+----- version 0.05-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
