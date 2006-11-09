@@ -5,20 +5,20 @@ Construction Kit library (libwnck for short) to write tasklists and
 pagers.
 
 Runtime requirements:
-  cygwin-1.5.20-1
-  gtk2-x11-2.8.19-1
-  libwnck1_18-2.14.2-1
+  cygwin-1.5.21-2
+  gtk2-x11-2.10.6-1
+  libwnck1_18-2.16.1-1
   perl-5.8.7-5
-  perl-Glib-1.120-1
-  perl-Gtk2-1.122-1
+  perl-Glib-1.140-1
+  perl-Gtk2-1.140-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.20-1
-  binutils-20050610-1
-  cygport-0.2.3-1
+  cygwin-1.5.21-2
+  binutils-20060817-1
+  cygport-0.2.6-1
   gcc-core-3.4.4-1
-  make-3.80-1
+  make-3.81-1
   perl-5.8.7-5
   perl-ExtUtils-Depends-0.205-1
   perl-ExtUtils-PkgConfig-1.07-1
@@ -32,15 +32,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Gnome2-Wnck-0.13-X-src.tar.bz2
+  unpack perl-Gnome2-Wnck-0.14-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Gnome2-Wnck-0.13-X.cygport all
+  cygport ./perl-Gnome2-Wnck-0.14-X.cygport all
 
 This will create:
-  /usr/src/perl-Gnome2-Wnck-0.13-X-src.tar.bz2
-  /usr/src/perl-Gnome2-Wnck-0.13-X.tar.bz2
+  /usr/src/perl-Gnome2-Wnck-0.14-X-src.tar.bz2
+  /usr/src/perl-Gnome2-Wnck-0.14-X.tar.bz2
 
 -------------------------------------------
 
@@ -66,11 +66,11 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Wnck/Wnck.bs
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Wnck/Wnck.dll
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Wnck/libWnck.dll.a
-  /usr/share/doc/Cygwin/perl-Gnome2-Wnck-0.13.README
-  /usr/share/doc/perl-Gnome2-Wnck-0.13/ChangeLog
-  /usr/share/doc/perl-Gnome2-Wnck-0.13/LICENSE
-  /usr/share/doc/perl-Gnome2-Wnck-0.13/NEWS
-  /usr/share/doc/perl-Gnome2-Wnck-0.13/README
+  /usr/share/doc/Cygwin/perl-Gnome2-Wnck-0.14.README
+  /usr/share/doc/perl-Gnome2-Wnck-0.14/ChangeLog
+  /usr/share/doc/perl-Gnome2-Wnck-0.14/LICENSE
+  /usr/share/doc/perl-Gnome2-Wnck-0.14/NEWS
+  /usr/share/doc/perl-Gnome2-Wnck-0.14/README
   /usr/share/man/man3/Gnome2.Wnck.3pm.gz
   /usr/share/man/man3/Gnome2.Wnck.Application.3pm.gz
   /usr/share/man/man3/Gnome2.Wnck.ClassGroup.3pm.gz
@@ -86,6 +86,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.14-1 -----
+Version bump.
 
 ----- version 0.13-1 -----
 Version bump, built with cygport.
