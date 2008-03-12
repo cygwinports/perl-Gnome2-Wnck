@@ -5,25 +5,23 @@ Construction Kit library (libwnck for short) to write tasklists and
 pagers.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  gdk-pixbuf2-2.12.2-1
-  glib2-2.14.4-1
-  gtk2-x11-2.12.2-1
+  cygwin-1.5.25-7
+  gdk-pixbuf2-2.12.7-1
+  glib2-2.14.6-1
+  gtk2-x11-2.12.7-1
   libwnck1_22-2.20.2-1
-  perl-5.8.8-4
-  perl-Glib-1.162-1
-  perl-Gtk2-1.162-1
+  perl-5.10.0-3
+  perl-Glib-1.164-1
+  perl-Gtk2-1.164-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.3.7-1
+  cygport-0.3.9-1
   gcc-core-3.4.4-3
   make-3.81-1
-  perl-5.8.8-4
-  perl-ExtUtils-Depends-0.205-1
-  perl-ExtUtils-PkgConfig-1.07-1
+  perl-ExtUtils-Depends-0.205-2
+  perl-ExtUtils-PkgConfig-1.10-1
 
 Canonical homepage:
   http://gtk2-perl.sourceforge.net/
@@ -48,28 +46,24 @@ This will create:
 
 Files included in the binary package:
 
-  /etc/postinstall/perl-Gnome2-Wnck.sh
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Application.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/ClassGroup.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Install/Files.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Install/wnck2perl-autogen.h
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Install/wnck2perl-version.h
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Install/wnck2perl.h
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Install/wnck2perl.typemap
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Pager.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Screen.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Selector.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Tasklist.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Window.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/Workspace.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/index.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Wnck/main.pod
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Wnck/.packlist
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Wnck/Wnck.bs
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Wnck/Wnck.dll
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Wnck/libWnck.dll.a
-  /usr/share/doc/Cygwin/perl-Gnome2-Wnck-0.15.README
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Wnck.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Wnck/Application.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Wnck/ClassGroup.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Wnck/Install/Files.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Wnck/Install/wnck2perl-autogen.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Wnck/Install/wnck2perl-version.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Wnck/Install/wnck2perl.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Wnck/Install/wnck2perl.typemap
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Wnck/Pager.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Wnck/Screen.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Wnck/Selector.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Wnck/Tasklist.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Wnck/Window.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Wnck/Workspace.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Wnck/index.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Wnck/main.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gnome2/Wnck/.packlist
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gnome2/Wnck/Wnck.dll
   /usr/share/doc/perl-Gnome2-Wnck-0.15/ChangeLog
   /usr/share/doc/perl-Gnome2-Wnck-0.15/LICENSE
   /usr/share/doc/perl-Gnome2-Wnck-0.15/NEWS
@@ -85,11 +79,13 @@ Files included in the binary package:
   /usr/share/man/man3/Gnome2.Wnck.Workspace.3pm.gz
   /usr/share/man/man3/Gnome2.Wnck.index.3pm.gz
   /usr/share/man/man3/Gnome2.Wnck.main.3pm.gz
-  /usr/share/perl/cygwin-pods/5.8/Gnome2-Wnck.pod
 
 ------------------
 
 Port Notes:
+
+----- version 0.15-2 -----
+Rebuilt for perl-5.10.
 
 ----- version 0.15-1 -----
 Version bump for libwnck-2.20.
