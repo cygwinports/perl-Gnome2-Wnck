@@ -11,8 +11,8 @@ Runtime requirements:
   gtk2-x11-2.12.7-1
   libwnck1_22-2.20.2-1
   perl-5.10.0-3
-  perl-Glib-1.164-1
-  perl-Gtk2-1.164-1
+  perl-Glib-1.182-1
+  perl-Gtk2-1.182-1
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -20,7 +20,7 @@ Build requirements:
   cygport-0.3.9-1
   gcc-core-3.4.4-3
   make-3.81-1
-  perl-ExtUtils-Depends-0.205-2
+  perl-ExtUtils-Depends-0.300-1
   perl-ExtUtils-PkgConfig-1.10-1
 
 Canonical homepage:
@@ -32,15 +32,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Gnome2-Wnck-0.15-X-src.tar.bz2
+  unpack perl-Gnome2-Wnck-0.16-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Gnome2-Wnck-0.15-X.cygport all
+  cygport ./perl-Gnome2-Wnck-0.16-X.cygport all
 
 This will create:
-  /usr/src/perl-Gnome2-Wnck-0.15-X-src.tar.bz2
-  /usr/src/perl-Gnome2-Wnck-0.15-X.tar.bz2
+  /usr/src/perl-Gnome2-Wnck-0.16-X-src.tar.bz2
+  /usr/src/perl-Gnome2-Wnck-0.16-X.tar.bz2
 
 -------------------------------------------
 
@@ -64,10 +64,10 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Wnck/main.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gnome2/Wnck/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gnome2/Wnck/Wnck.dll
-  /usr/share/doc/perl-Gnome2-Wnck-0.15/ChangeLog
-  /usr/share/doc/perl-Gnome2-Wnck-0.15/LICENSE
-  /usr/share/doc/perl-Gnome2-Wnck-0.15/NEWS
-  /usr/share/doc/perl-Gnome2-Wnck-0.15/README
+  /usr/share/doc/perl-Gnome2-Wnck-0.16/ChangeLog
+  /usr/share/doc/perl-Gnome2-Wnck-0.16/LICENSE
+  /usr/share/doc/perl-Gnome2-Wnck-0.16/NEWS
+  /usr/share/doc/perl-Gnome2-Wnck-0.16/README
   /usr/share/man/man3/Gnome2.Wnck.3pm.gz
   /usr/share/man/man3/Gnome2.Wnck.Application.3pm.gz
   /usr/share/man/man3/Gnome2.Wnck.ClassGroup.3pm.gz
@@ -84,8 +84,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.15-2 -----
-Rebuilt for perl-5.10.
+----- version 0.16-1 -----
+Version bump, built for perl-5.10.
 
 ----- version 0.15-1 -----
 Version bump for libwnck-2.20.
