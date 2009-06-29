@@ -1,5 +1,5 @@
 category: Perl Gnome
-requires: cygwin libgcc1 libglib2.0_0 libgdk_pixbuf2.0_0 libgtk2.0_0 libwnck1_22 perl perl-Glib perl-Gtk2
+requires: libgcc1 libglib2.0_0 libgdk_pixbuf2.0_0 libgtk2.0_0 libwnck1_22 perl perl-Glib perl-Gtk2
 sdesc: "Perl bindings for the GNOME Wnck library"
 ldesc: "This module allows a Perl developer to use the Window Navigator 
 Construction Kit library (libwnck for short) to write tasklists and
