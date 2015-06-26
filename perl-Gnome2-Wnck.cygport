@@ -2,7 +2,7 @@ inherit gtk2-perl
 
 NAME="perl-Gnome2-Wnck"
 VERSION=0.16
-RELEASE=11
+RELEASE=12
 CATEGORY="Perl"
 SUMMARY="Perl bindings for the GNOME Wnck library"
 DESCRIPTION="This module allows a Perl developer to use the Window Navigator 
